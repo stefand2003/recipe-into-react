@@ -1,0 +1,12 @@
+.homepage {
+  padding: 20px;
+  border: 0.5px gray solid;
+  width: 380px;
+  height: 400px;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+  }
+}

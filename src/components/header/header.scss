@@ -1,0 +1,17 @@
+.header {
+  font-size: 30px;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px gray solid;
+
+  :first-child {
+    color: green;
+    font-weight: 900;
+    text-decoration: underline;
+    font-family: 'Arial';
+  }
+  :last-child {
+    font-family: 'arial';
+  }
+}

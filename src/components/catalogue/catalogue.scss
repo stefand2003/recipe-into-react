@@ -1,0 +1,19 @@
+.recipes {
+  &__card {
+    img {
+      width: 150px;
+    }
+
+    div {
+      font-weight: bold;
+      width: 150px;
+    }
+
+    p {
+      margin: 0;
+      padding-top: 3px;
+      font-size: 12px;
+      color: gray;
+    }
+  }
+}
