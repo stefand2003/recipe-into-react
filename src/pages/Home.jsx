@@ -3,6 +3,7 @@ import React, { Profiler } from 'react';
 import Header from '../components/header/header';
 import Search from '../components/search/search';
 import Catalogue from '../components/catalogue/catalogue';
+import { Col, Row } from 'antd';
 
 const recipes = [
   {
@@ -39,7 +40,13 @@ export default function Home() {
     <div className='homepage'>
       <Header />
       <Search />
-      <div className='homepage__grid'>
+
+      <div className='homepage__recipe-title'>
+        <p>Recipe App</p>
+        <p>Find the best recipes for your favourite dishes</p>
+      </div>
+
+      <div>
         {recipes.map((recipe) => (
           <Catalogue
             image={recipe.image}

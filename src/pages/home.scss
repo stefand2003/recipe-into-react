@@ -4,9 +4,22 @@
   width: 380px;
   height: 400px;
 
-  &__grid {
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+  &__recipe-title {
+    text-align: center;
+
+    :first-child {
+      padding-top: 20px;
+      font-size: 35px;
+      margin: 0;
+      font-weight: bold;
+      color: green;
+    }
+
+    :last-child {
+      font-family: 'arial';
+      margin: 0px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+    }
   }
 }
