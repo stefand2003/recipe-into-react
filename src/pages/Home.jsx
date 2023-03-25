@@ -1,9 +1,9 @@
 import './home.scss';
-import React, { Profiler } from 'react';
+import React from 'react';
 import Header from '../components/header/header';
 import Search from '../components/search/search';
 import Catalogue from '../components/catalogue/catalogue';
-import { Col, Row } from 'antd';
+import Footer from '../components/footer/footer';
 
 const recipes = [
   {
@@ -46,7 +46,7 @@ export default function Home() {
         <p>Find the best recipes for your favourite dishes</p>
       </div>
 
-      <div>
+      <div className='homepage__flex'>
         {recipes.map((recipe) => (
           <Catalogue
             image={recipe.image}
@@ -55,6 +55,7 @@ export default function Home() {
           />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

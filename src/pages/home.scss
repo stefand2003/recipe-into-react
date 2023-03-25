@@ -2,7 +2,7 @@
   padding: 20px;
   border: 0.5px gray solid;
   width: 380px;
-  height: 400px;
+  height: 700px;
 
   &__recipe-title {
     text-align: center;
@@ -21,6 +21,10 @@
       padding-top: 5px;
       padding-bottom: 20px;
       color: gray;
+    }
+
+    &__flex {
+      border: 1px red dotted;
     }
   }
 }
